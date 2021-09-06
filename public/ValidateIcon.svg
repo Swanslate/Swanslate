@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1808" viewBox="0 0 1920 1808">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Logo_-_icons_-_buttons);
+      }
+      .cls-2{
+        fill: #4e4e4e;
+      }
+      .cls-31{
+        fill: none;
+      }
+      .cls-15{
+        fill: none;
+        stroke: #4e4e4e;
+        stroke-width: 4px;
+      }
+      .cls-29{
+        stroke: none;
+      }
+
+    </style>
+  </defs>
+  <g id="vtPassive-2" data-name="vtPassive" transform="translate(850 219)" class="cls-1">
+    <g id="Group_77" data-name="Group 77">
+      <g id="Ellipse_2" data-name="Ellipse 2" class="cls-15">
+        <circle class="cls-29" cx="39" cy="39" r="39"/>
+        <circle class="cls-31" cx="39" cy="39" r="37"/>
+      </g>
+      <path id="Path_5" data-name="Path 5" class="cls-2" d="M58.159,317l16.518,16.518L104.6,303.591,74.677,323.322Z" transform="translate(-42 -280)"/>
+    </g>
+  </g>
+</svg>

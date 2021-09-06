@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Logo_-_icons_-_buttons);
+      }
+      .cls-2{
+        fill: #4e4e4e;
+      }
+      .cls-31{
+        fill: none;
+      }
+      .cls-15{
+        fill: none;
+        stroke: #4e4e4e;
+        stroke-width: 4px;
+      }
+      .cls-29{
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ttPassive-2" data-name="ttPassive" transform="translate(735 219)" class="cls-1">
+    <g id="Group_76" data-name="Group 76">
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M103.632,77.821s-1.41-5.127-5.275-5.275-33.454,0-33.454,0,2.186,5.275,9.135,5.275Z" transform="translate(-51.319 -44)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-2" d="M83.076,90.671a7.087,7.087,0,0,0-6.969-5.447H54.614s2.862,5.447,8.258,5.447Z" transform="translate(-24.923 -49.064)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-2" d="M62.87,103.884s-2.329-5.361-6.983-5.361H45.075s2.451,5.361,8.019,5.361Z" transform="translate(1.031 -54.348)"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-15">
+        <circle class="cls-29" cx="100%" cy="100%" r="39"/>
+        <circle class="cls-31" cx="39" cy="39" r="37"/>
+      </g>
+    </g>
+  </g>
+</svg>
