@@ -60,7 +60,16 @@ export default function SideBarComponent() {
           Sign In
         </Button>
       }
-
+      <Link href="/AblyChatPage">
+        <a>
+          <Button
+            color="secondary"
+            variant="contained"
+          >
+            Open Chat
+          </Button>
+        </a>
+      </Link>
       <div className={Styles.ButtonGroup}>
         <IconButton className={Styles.btn}>
           <Link href="/translateTasks">

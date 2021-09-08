@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   useEffect(() => {
-    if ((globalThis)?.window) {
+    if ((globalThis)?.window?.location.href.startsWith("https://sandbox.minepi.com/")) {
       const { Pi } = require("@pinetwork-js/sdk");
       console.log(process.env.NODE_ENV);
       Pi?.init({ version: "2.0", sandbox: true });
