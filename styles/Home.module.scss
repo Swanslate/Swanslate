@@ -1,0 +1,31 @@
+.motto {
+    margin-top: 15rem;
+    margin-left: 7rem;
+    display: block;
+    text-align: left;
+    font: normal normal bold 3.25rem/3.75rem Georgia;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+}
+
+.subContent {
+    margin-left: 7rem;
+    text-align: left;
+    font: normal normal bold 1.75rem/2rem Georgia;
+    letter-spacing: 0px;
+    color: #4e4e4e;
+}
+
+/* Tablets and under  */
+
+@media (max-width: 768px) {
+}
+/* Mobile */
+@media (max-width: 500px) {
+    .motto {
+        margin: 5rem 0 0 4rem;
+    }
+    .subContent {
+        margin: 5rem 0 0 4rem;
+    }
+}

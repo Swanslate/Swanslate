@@ -1,0 +1,39 @@
+.line {
+  background-color: #f8c2c2;
+  height: 2vh;
+}
+
+.container {
+
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+
+  .sideBar {
+    flex-basis: 10rem;
+    background-color: #ececec;
+  }
+  .content {
+    background-color: #f6f6f6;
+    flex-grow: 10;
+  }
+}
+
+/* Tablets and under  */
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    .content {
+      margin: 0 auto;
+    }
+  }
+  .line {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+}

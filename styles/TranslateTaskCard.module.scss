@@ -1,0 +1,21 @@
+.card {
+    margin: 3rem auto;
+    padding: 2rem;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    .cardContent {
+        font-size: 1.25rem;
+      }
+      .buttonContainer {
+        display: flex;
+        justify-content: flex-end;
+        .button {
+            margin-top: 1.5rem;
+            margin-left: 2rem;
+            font-size: 1rem;
+            flex-basis: 100px;
+          }
+      }
+
+  }
