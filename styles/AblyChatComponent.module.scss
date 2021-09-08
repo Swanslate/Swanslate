@@ -1,0 +1,57 @@
+.PageTitle {
+    text-align: center;
+}
+.Footer {
+    text-align: center;
+}
+.ChatContainer {
+    max-width: 80%;
+    margin: 0 auto;
+
+    .ChatSection {
+        height: 70vh;
+        overflow: auto;
+        .MessageCard {
+            margin: 0.5rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+            .MessageAvatar {
+                margin-right: 4px;
+            }
+            .MessageSender {
+                font-weight: bold;
+            }
+        }
+        .OwnMessages {
+            @extend .MessageCard;
+            text-align: end;
+        }
+    }
+
+    .Form {
+        display: block;
+        margin: 2rem auto;
+        width: 90%;
+        text-align: end;
+        .TextArea {
+            width: 100%;
+        }
+        .SendButton {
+            margin: 4px 0;
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .ChatContainer {
+        max-width: 95%;
+        margin: 0 auto;
+
+        .Form {
+            .SendButton {
+                width: 100px;
+            }
+        }
+    }
+}
